@@ -152,10 +152,17 @@ ul {
 }
 
 div.post-title a.title {
-  color: #526F7F;
+  color: #656565;
   text-decoration: none;
   font-size: 1.8rem;
+  font-weight: 600;
 }
+
+div.post-title a.title:hover {
+  color: #B7B7B7;
+}
+
+
 
 h1.post-title {
   margin-bottom: 1rem;
@@ -203,7 +210,7 @@ nav ul {
 }
 
 span.post-date.listing-date {
-  color: #a5bac5;
+  color: #616465;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.6rem;
 }
