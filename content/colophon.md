@@ -3,7 +3,7 @@ nopaging = true
 nodate = true
 title = "Colophon"
 nocomment = true
-draft = true
+draft = false
 +++
 
 This website is written using [Sublime Text 3](https://www.sublimetext.com/)
