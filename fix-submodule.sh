@@ -11,7 +11,7 @@ sleep 2
 vim .git/config
 rm -rf public
 git add . && git commit -m "cleaning index"
-git submodule add git@github.com:ankushagarwal/ankushagarwal.github.com.git public
+git submodule add git@github.com:ankushagarwal/ankushagarwal.github.io.git public
 ./release.sh
 git add .gitmodule
 git commit -m "Added the submodule back"
