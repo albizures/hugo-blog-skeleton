@@ -1,4 +1,4 @@
-baseurl = "http://blob.ankush.io/"
+baseurl = "http://localhost:1313/"
 languageCode = "en-us"
 title = "Ankush's Blog"
 pygmentsUseClasses = true
@@ -15,3 +15,4 @@ theme = "skeleton"
   authorGoogleplus = "ankushagarwal11"
   coverImage = "http://www.gravatar.com/avatar/54525f2e6d6db4473f0fb264a8a5d995?s=300"
   authorSignature = "Ankush"
+  baseurl = "http://localhost:1313"
