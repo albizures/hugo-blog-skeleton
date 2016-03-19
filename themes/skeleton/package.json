@@ -11,8 +11,8 @@
     "theme",
     "hugo"
   ],
-  "author": "Nishant Totla"
-  "creator": "Prakhar Srivastav",
+  "author": "Ankush Agarwal",
+  "creator": "Nishant Totla and Prakhar Srivastav",
   "license": "Apache 2.0",
   "dependencies": {
     "gulp": "^3.9.0",
