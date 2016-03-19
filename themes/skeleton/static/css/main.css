@@ -2,7 +2,7 @@
 
 body {
   color: #404548;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -15,6 +15,11 @@ a {
   font-weight: 400;
   font-style: italic;
 }
+
+.post-content p {
+  text-align: justify;
+}
+
 section p a:hover {
   color: #8AE1F7;
 }
@@ -29,7 +34,7 @@ code, kbd, pre, samp {
 }
 
 h1, h2, h3, h4, h5, h6, button, .button {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h4 a {
@@ -69,7 +74,7 @@ input[type="email"]:focus, input[type="search"]:focus, input[type="text"]:focus,
 
 .container {
   background: white;
-  max-width: 740px;
+  max-width: 600px;
   position: relative;
   margin: 0 auto;
   padding: 3rem;
@@ -86,7 +91,7 @@ figure img {
 figcaption {
   text-align: center;
   font-size: 1.4rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 blockquote p {
@@ -219,7 +224,7 @@ nav ul {
 
 span.post-date.listing-date {
   color: #616465;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
 }
 
@@ -236,7 +241,7 @@ div.post-meta {
 
 a.post-tag {
   text-decoration: none;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.4rem;
 }
 
@@ -248,7 +253,7 @@ a.post-tag {
 .post-content-meta {
   color: #616465;
   font-size: 1.5rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .post-content h4 {
@@ -272,7 +277,7 @@ div.post-meta, .paging {
 }
 
 .paging a {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   font-size: 1.6rem;
   background: #eee;
@@ -284,7 +289,7 @@ div.post-meta, .paging {
 /* QUOTE PAGE */
 div.custom-quote,
 ul#quotes-list li {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   position: relative;
   padding: 15px 0 0 44px;
   margin-bottom: 3rem;
@@ -330,7 +335,7 @@ a.fork-github {
 
 p.tech-stack {
   text-transform: uppercase;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.0rem;
   margin-bottom: 0.8rem;
   color: white;
@@ -379,7 +384,7 @@ div.recent ul li {
 }
 
 div.recent p.desc {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.4rem;
 }
 

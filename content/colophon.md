@@ -13,7 +13,7 @@ This site was created by forking [Nishant's](http://nishanttotla.com/) website.
 Credits for the original design go to [Prakhar Srivastav](http://prakhar.me).
 
 Icons on the site are courtesy of [Fontello](http://fontello.com/). Typography
-uses [Source Sans Pro](https://github.com/adobe-fonts/source-sans-pro).
+uses [Open Sans](https://www.google.com/fonts/specimen/Open+Sans).
 
 Lastly, [Git](http://git-scm.com/) is used to publish on Github, where all the
 code for this website is freely available. Please feel

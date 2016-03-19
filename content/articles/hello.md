@@ -3,7 +3,7 @@ categories = ["Uncategorized"]
 date = "2016-03-18"
 description = "Hello World Post"
 draft = false
-tags = ["helloworld"]
+tags = ["helloworld", "coding"]
 title = "Hello World"
 socialsharing = true
 
