@@ -366,6 +366,10 @@ h1.social-sharing {
   color: #404548;
 }
 
+h1.social-sharing a:hover {
+  color: #A2A7AB;
+}
+
 div.recent {
   margin-top: 2rem;
 }
