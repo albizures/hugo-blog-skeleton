@@ -1,4 +1,4 @@
-This repository contains code for my [personal website and blog](http://www.nishanttotla.com).
+This repository contains code for my [blog](http://blog.ankush.io).
 
 ## Installation
 
