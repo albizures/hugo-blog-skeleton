@@ -10,7 +10,7 @@ a {
   text-decoration: none;
   color: #474E50;
 }
-section p a  {
+.post-content a  {
   color: #3D97AD;
   font-weight: 400;
   font-style: italic;
