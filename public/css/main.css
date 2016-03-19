@@ -1,0 +1,489 @@
+/* SITE WIDE CSS */
+
+body {
+  color: #404548;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #474E50;
+}
+section p a  {
+  color: #3D97AD;
+  font-weight: 400;
+  font-style: italic;
+}
+section p a:hover {
+  color: #8AE1F7;
+}
+a:hover {
+  text-decoration: none;
+  color: #A0A0A0;
+}
+
+code, kbd, pre, samp {
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.4rem;
+}
+
+h1, h2, h3, h4, h5, h6, button, .button {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h4 a {
+  text-decoration: none;
+}
+
+input[type="email"] {
+  height: 24px;
+}
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  border-color: rgb(105, 128, 140);
+  background: rgb(105, 128, 140);
+}
+
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  border-color: rgb(105, 128, 140);
+  background: #404548;
+}
+
+input[type="email"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:focus {
+  border-color: rgb(105, 128, 140);
+}
+
+.container {
+  background: white;
+  max-width: 740px;
+  position: relative;
+  margin: 0 auto;
+  padding: 3rem;
+  width: 80%;
+}
+figure {
+  text-align: center;
+}
+figure img {
+  width: 100%;
+  height: auto!important;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+blockquote p {
+  margin-bottom: 0;
+}
+
+div.footnotes {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* SITE WIDE ENDS */
+
+.post-header {
+  border-bottom: 1px solid #eee;
+}
+
+.post-header .container {
+  background: none;
+  padding: 0rem;
+  color: white;
+  font-weight: 800;
+}
+
+.post-header a {
+  color: #737373;
+}
+
+.post-header a:hover {
+  color: #D6D6D6;
+}
+
+blockquote {
+  background: #e9f2f7;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+h1 {
+  font-size: 3.0rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  line-height: 1.3;
+  color: #404548;
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+  border-bottom: 1px solid #ddd;
+  font-weight: 600;
+}
+
+section.post {
+  margin: 1.2rem 0;
+  padding: 2rem 0;
+}
+
+section ol, section ul {
+  padding-left: 2.0rem;
+}
+
+ol {
+  list-style: decimal outside;
+}
+
+ul {
+  list-style: disc outside;
+}
+
+div.post-title a.title {
+  color: #656565;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+div.post-title a.title:hover {
+  color: #B7B7B7;
+}
+
+
+
+h1.post-title {
+  margin-bottom: 1rem;
+}
+
+h1.post-title a {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  color: #5D5D5D;
+  font-size: 1.8rem;
+}
+
+h1.post-title a:hover {
+  color: #D6D6D6;
+}
+
+
+/* HEADER SECTION */
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 2rem;
+  margin: 0 2rem;
+}
+
+nav ul {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.post-header h4 {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.post-header .row {
+  margin-bottom: 1rem;
+}
+
+span.post-date.listing-date {
+  color: #616465;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+}
+
+/* HEADER SECTION ENDS */
+
+p.post-meta {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+div.post-meta {
+  text-align: right;
+}
+
+a.post-tag {
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.4rem;
+}
+
+
+.post-content {
+  margin-top: 2rem;
+}
+
+.post-content-meta {
+  color: #616465;
+  font-size: 1.5rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.post-content h4 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    color: #404548;
+}
+
+.footer {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+div.post-meta, .paging {
+  display: none;
+}
+
+.paging-newer {
+  text-align: right;
+}
+
+.paging a {
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+  font-size: 1.6rem;
+  background: #eee;
+  color: #404548;
+  padding: 1.2rem;
+  border-radius: 2px;
+}
+
+/* QUOTE PAGE */
+div.custom-quote,
+ul#quotes-list li {
+  font-family: "Source Sans Pro", sans-serif;
+  position: relative;
+  padding: 15px 0 0 44px;
+  margin-bottom: 3rem;
+  list-style-type: none;
+}
+
+div.custom-quote h1,
+ul#quotes-list li h1 {
+  font-size: 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #dce2e5;
+}
+
+ul#quotes-list li p {
+  display: inline;
+}
+
+div.custom-quote span.author,
+ul#quotes-list li span.author {
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* QUOTE PAGE ENDS */
+
+ul#projects-list {
+  padding-left: 0;
+}
+
+ul#projects-list li {
+  list-style-type: none;
+}
+
+ul#projects-list div.project-item {
+  margin-bottom: 5rem;
+}
+
+a.fork-github {
+  float: right;
+}
+
+p.tech-stack {
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.0rem;
+  margin-bottom: 0.8rem;
+  color: white;
+  font-weight: 600;
+}
+
+p.tech-stack span.tag {
+  background-color: #404548;
+  margin-right: 10px;
+  padding: 4px 4px;
+  border-radius: 4px;
+}
+
+h1.social-me a {
+  font-size: 3rem;
+  margin-right: 2rem;
+  color: #404548;
+}
+
+h1.social-sharing a {
+  font-size: 3.0rem;
+  margin-right: 0rem;
+  color: #404548;
+}
+
+h1.social-sharing {
+  font-size: 2.5rem;
+  margin-right: 0rem;
+  color: #404548;
+}
+
+div.recent {
+  margin-top: 2rem;
+}
+
+div.recent ul li {
+  list-style-type: none;
+}
+
+div.recent p.desc {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.4rem;
+}
+
+.intro figure, div.recent figure {
+  margin: 0;
+}
+
+.intro figure {
+  margin-bottom: 2em;
+}
+
+.intro figure img {
+  border-radius: 4px;
+  max-width: none;
+}
+
+/* Disqus */
+
+div#disqus_thread a {
+  color: #404548;
+}
+
+a.publisher-anchor-color {
+  color: #404548;
+}
+
+div#disqus_area {
+  background: #F3F3F3;
+  padding: 2rem;
+}
+
+/* pygments highlighting */
+.highlight {
+/*  padding: 10px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;*/
+}
+
+code {
+  background: white;
+  border: 1px solid #ddd;
+}
+
+pre, .highlight pre {
+  line-height: 135%;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  /*margin: 0;*/
+}
+/* MEDIA QUERIES */
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  body { font-size: 1.8rem; }
+
+  h1 { font-size: 3.5rem;
+    margin-bottom: 1.3rem;
+  }
+  h2 { font-size: 3.0rem; }
+  h3 { font-size: 2.0rem; }
+  h4 { font-size: 1.5rem; }
+  h5 { font-size: 1.2rem; }
+  h6 { font-size: 1.2rem; }
+
+  div.post-meta, .paging {
+    display: block;
+  }
+
+  /* HEADER SECTION */
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0 1.5rem;
+  }
+
+  nav ul {
+    text-align: right;
+    margin-top: 1.4rem;
+  }
+
+  .post-header h4 {
+    text-align: left;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  h1.post-title a {
+    font-size: 2.4rem;
+  }
+
+  .post-content {
+    margin-top: 3rem;
+  }
+
+  h1.post-title {
+    margin-bottom: 2rem;
+  }
+
+  p.tech-stack {
+      font-size: 1.2rem;
+      margin-bottom: 0.8rem;
+      font-weight: 600;
+  }
+
+  p.tech-stack span.tag {
+      margin-right: 10px;
+      padding: 4px 8px;
+  }
+
+}

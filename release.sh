@@ -8,4 +8,5 @@ if [ $# -eq 1 ]
   then msg="$1"
 fi
 git commit -s -m "$msg"
-git push origin master
+git push -f origin master
+cd ..
