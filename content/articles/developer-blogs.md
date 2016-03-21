@@ -2,7 +2,7 @@
 categories = ["Blogs"]
 date = "2016-03-19"
 description = "Interesting Developer Blogs to Follow"
-draft = true
+draft = false
 tags = ["blogs", "developers"]
 title = "Developer Blogs to follow"
 socialsharing = true
