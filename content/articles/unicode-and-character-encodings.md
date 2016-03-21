@@ -6,7 +6,7 @@ draft = true
 tags = ["unicode", "encoding", "coding"]
 title = "Unicode and Character Encodings"
 socialsharing = true
-
+custom_is_article = true
 +++
 
 Unicode!

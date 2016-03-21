@@ -6,7 +6,7 @@ draft = true
 tags = ["blogs", "developers"]
 title = "Developer Blogs to follow"
 socialsharing = true
-
+custom_is_article = true
 +++
 
 This post is a work in progress to try to collect some interesting blogs by

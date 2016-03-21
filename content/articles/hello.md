@@ -6,7 +6,7 @@ draft = false
 tags = ["helloworld", "coding"]
 title = "Hello World"
 socialsharing = true
-
+custom_is_article = true
 +++
 
 

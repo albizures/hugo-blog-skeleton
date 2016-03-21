@@ -1,10 +1,22 @@
 {{ partial "header.html" . }}
 <body>
-      <script type="text/javascript">
-      	var parser = document.createElement('a');
-				parser.href = window.location.href;
-				console.log("New parser.href = " + parser.href);
-        window.location=parser.protocol + "//" + parser.host + "/articles/";
-      </script>
-      </body>
+      {{ partial "singletop.html" . }}
+
+  <div class="container">
+      <h1 class="post-title"> <a href="#">Articles</a> </h1>
+      <p></p>
+         {{ range .Data.Pages }}
+           {{ if .Params.custom_is_article }}
+             {{ partial "corelist.html" . }}
+           {{ end}}
+         {{ end }}
+      </div>
+      {{ partial "footer.html" . }}
+    </div>
+  </div>
+  {{ partial "analytics.html" . }}
+    </div>
+  </div>
+  {{ partial "bodyend.html" . }}
+</body>
 </html>
