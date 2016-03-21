@@ -913,23 +913,24 @@ a {
   color: #474E50;
 }
 .post-content a  {
-  color: #3D97AD;
+  color: #4184F3;
   font-weight: 400;
-  font-style: italic;
+  /*font-style: italic;*/
 }
 
 .post-content p {
   text-align: justify;
 }
 
-section p a:hover {
+/*section p a:hover {
   color: #8AE1F7;
 }
-a:hover {
+*/
+/*a:hover {
   text-decoration: none;
   color: #A0A0A0;
 }
-
+*/
 code, kbd, pre, samp {
   font-family: "Source Code Pro", monospace;
   font-size: 1.4rem;
