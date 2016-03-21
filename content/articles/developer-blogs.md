@@ -42,3 +42,11 @@ development out there. One of the most respected stalwarts of our field
 
 IITD/Stanford Alum and a Google Veteran. Has a very interesting blog on
 Puzzles, Bay Area Hikes and Indian Culture
+
+#### [Dan Luu](http://danluu.com/)
+
+Writes about tech, hiring and salaries
+
+#### [Patrick McKenzie](http://www.kalzumeus.com/)
+
+Writes about tech, hiring and salaries
