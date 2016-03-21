@@ -6,8 +6,8 @@
 
 rm .gitmodules
 rm -rf .git/modules
-echo -e "\033[0;32mRemove entry for submodule from git config file. Opening file in 2secs..\033[0m"
-sleep 2
+echo -e "\033[0;32mRemove entry for submodule from git config file. Opening file in 5secs..\033[0m"
+sleep 5
 vim .git/config
 rm -rf public
 git add . && git commit -m "cleaning index"
