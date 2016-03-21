@@ -5,6 +5,7 @@ pygmentsUseClasses = true
 theme = "skeleton"
 [permalinks]
   articles = "/:title/"
+  til = "/til/:title/"
 [params]
   description = "Ankush's Blog"
   author = "Ankush Agarwal"
