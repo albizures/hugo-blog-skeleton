@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow: 
 
-Sitemap: http://blog.ankush.io/sitemap.xml
+Sitemap: http://ankush.io/sitemap.xml

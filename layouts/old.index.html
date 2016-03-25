@@ -5,9 +5,13 @@
       {{ partial "singletop.html" . }}
 
   <div class="container">
-      <h1 class="post-title"> <a href="#">Technical Articles</a> </h1>
+      <h1 class="post-title"> <a href="#">Articles</a> </h1>
       <p></p>
-        {{ partial "corelist.html" . }}
+         {{ range .Data.Pages }}
+           {{ if .Params.custom_is_article }}
+             {{ partial "corelist.html" . }}
+           {{ end}}
+         {{ end }}
       </div>
       {{ partial "footer.html" . }}
     </div>

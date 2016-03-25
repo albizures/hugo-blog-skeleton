@@ -1,6 +1,6 @@
-baseurl = "http://blog.ankush.io/"
+baseurl = "http://ankush.io/"
 languageCode = "en-us"
-title = "Ankush's Blog"
+title = "Ankush's Homepage"
 pygmentsUseClasses = true
 theme = "skeleton"
 [permalinks]

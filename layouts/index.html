@@ -1,22 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
 {{ partial "header.html" . }}
 <body>
-      {{ partial "singletop.html" . }}
 
-  <div class="container">
-      <h1 class="post-title"> <a href="#">Articles</a> </h1>
-      <p></p>
-         {{ range .Data.Pages }}
-           {{ if .Params.custom_is_article }}
-             {{ partial "corelist.html" . }}
-           {{ end}}
-         {{ end }}
-      </div>
-      {{ partial "footer.html" . }}
-    </div>
+  <div class="homepage-title">
+      <a href="/" title="Ankush Agarwal"><span>ANKUSH AGARWAL</span></a>
   </div>
-  {{ partial "analytics.html" . }}
-    </div>
+
+  <div>
+  <nav>
+    <ul class="homepage-nav-ul">
+          <li>
+            <a href="/articles/" target="_blank">BLOG</a>
+          </li>
+          <li>
+            <a href="https://gyrosco.pe/ankushagarwal/explorer/" target="_blank">TRAVEL</a>
+          </li>
+          <li>
+            <a href="https://gyrosco.pe/ankushagarwal/sport/" target="_blank">FITNESS</a>
+          </li>
+    </ul>
+  </nav>
   </div>
-  {{ partial "bodyend.html" . }}
+
+  <div class="homepage-main">
+    <p>
+      Ankush is a 20-something year old programmer based out of the San Francisco Bay Area. His interests include, but are not limited to, Backend Computational Infrastructure, Cloud Computing, Docker, Virtualization && Tech Startups. He focuses on Software Development in Java and Golang.
+    </p>
+
+    <p>
+      He enjoys listening to Hindi Music and occasionally clicking pictures with his 550D. He enjoys playing Pool and watching professional Snooker.
+    </p>
+  </div>
+{{ partial "footer.html" . }}
 </body>
 </html>
